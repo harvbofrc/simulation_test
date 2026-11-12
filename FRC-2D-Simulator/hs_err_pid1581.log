@@ -1,0 +1,23 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x0000000000000020, pid=1581, tid=1583
+#
+# JRE version: OpenJDK Runtime Environment (21.0.13+1) (build 21.0.13.0.3+1)
+# Java VM: OpenJDK 64-Bit Server VM (21.0.13.0.3+1, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libhalsim_gui.so+0x19c07f]  wpi::gui::CommonRenderFrame()+0x4f
+#
+# Core dump will be written. Default location: Determined by the following: "/usr/lib/systemd/systemd-coredump %P %u %g %s %t %c %h %d %F %I" (alternatively, falling back to /home/davi/Documentos/FRC-2D-Simulator/core.1581)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Djava.library.path=/home/davi/Documentos/FRC-2D-Simulator/build/jni/release -Dfile.encoding=UTF-8 -Duser.country=BR -Duser.language=pt -Duser.variant /home/davi/Documentos/FRC-2D-Simulator/build/libs/FRC-2D-Simulator.jar
+
+Host: Intel(R) Celeron(R) CPU 4205U @ 1.80GHz, 2 cores, 11G, 
